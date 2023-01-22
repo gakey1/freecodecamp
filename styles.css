@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #00B4B6;
+}
+
+h1,p{
+  color: #58583e;
+  text-align: center;
+  margin: 1em auto;
+}
+
+form{
+  background-color: #fff;
+  width: 80%;
+  margin: 2rem auto;
+  color: #00B4B6;
+  max-width: 550px;
+  box-shadow: 5px 5px 10px #58583e ;
+  border-radius: 7px;
+  padding-bottom: 3.5rem;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+input,select,textarea{
+  margin: 10px 0 0 0;
+  width: 97%;
+  border: 2px solid #818173;
+  padding: .5rem .1rem;
+  margin: .3rem 0;
+  border-radius: 7px;
+  color: #818173;
+}
+
+input:focus, select:focus{
+  outline: none !important;
+  border: 1px solid #818173be;
+  box-shadow: 0 0 10px #58583e;
+  
+}
+
+label{
+  padding: .5rem .1rem;
+  margin: 2rem .5rem;
+  display: block;
+  margin: 0.5rem 0.5rem;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.text-color{
+  color: #818173;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #FF811E;
+  border-color: white;
+  min-width: 300px;
+  color: #fff;
+}
+
+input[type="submit"]:focus{
+  box-shadow: 0 0 10px #ff801e8b;
+}
