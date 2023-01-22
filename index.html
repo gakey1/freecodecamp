@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Web Developer Survey</h1>
+  <p id="description">This is a short developer survey for statistics purposes.</p>
+  <form action="#" id="survey-form">
+    <fieldset>
+      <!-- Name -->
+      <label for="name" id="name-label">Your Name: <input type="text" name="name" id="name" placeholder="Your Name"
+          required></label>
+      <!-- Email -->
+      <label for="email" id="email-label">Your Email: <input type="email" name="email" id="email"
+          placeholder="Your Email" required></label>
+      <!-- Number -->
+      <label for="number" id="number-label">Years Of Experience <input type="number" name="experience" id="number"
+          min="0" max="50" placeholder="Years Of Experience"></label>
+      <!-- Dropdown -->
+      <label for="dropdown">Highest School Qualification:
+        <select name="qualification" id="dropdown">
+          <option value="highschool">Highschool</option>
+          <option value="diploma">Diploma</option>
+          <option value="degree">Degree</option>
+          <option value="masters">Masters</option>
+          <option value="phd">Phd</option>
+        </select>
+      </label>
+      <!-- Radio -->
+      <label for="employed"><input type="radio" name="job-status" id="employed" value="Employed"> Employed</label>
+      <label for="un-employed"><input type="radio" name="job-status" id="un-employed" value="un-employed">
+        Un-employed</label>
+      <!-- Checkbox (Preffered Operating System) -->
+      <label for="mac"><input type="checkbox" name="system" id="mac" value="mac"> Mac</label>
+      <label for="windows"><input type="checkbox" name="system" id="windows" value="windows"> Windows</label>
+      <label for="linux"><input type="checkbox" name="system" id="linux" value="linux"> Linux</label>
+      <label for="comments"> Any Comments You would like to add:
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" name="submit" id="submit" value="Submit">
+  </form>
+</body>
+
+</html>
