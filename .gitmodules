@@ -1,0 +1,3 @@
+[submodule "technical-documentation-page"]
+	path = technical-documentation-page
+	url = https://github.com/gakey1/technical-documentation-page.git
