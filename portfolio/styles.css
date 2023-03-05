@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px){
+  #profile-link{
+    color: red;
+  }
+}
+
+.welcome-section{
+  height: 100vh;
+}
+
+#navbar{
+  position: fixed;
+}
